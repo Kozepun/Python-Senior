@@ -19,7 +19,7 @@ def Calc():
         elif (Ans.lower() == "change num"):
             Calc()
         elif (Ans.lower() == "exit"):
-            pass
+            print("Logged Out")
         else:
             print("Answer Is Invalid")
             Choise()
