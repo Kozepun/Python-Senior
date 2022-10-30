@@ -1,3 +1,4 @@
+print("Здраствуйте")
 def Calc():
     Number1 = int(input("1 Number -> "))
     Number2 = int(input("2 Number -> "))
