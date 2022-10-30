@@ -18,3 +18,8 @@ class Character:
         self.health -= max(damage, 0)
     def attack(self, target):
         target.take_damage(self.damage)
+    def is_alive(self):
+        if self.health > 0:
+            return True
+        else:
+            return False
